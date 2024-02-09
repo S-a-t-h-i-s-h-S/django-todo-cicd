@@ -12,7 +12,7 @@ metadata:
 
 spec:
 
-  replicas: 3
+  replicas: 1
 
   selector:
 
@@ -34,7 +34,7 @@ spec:
 
       - name: todo-app
 
-        image: trainwithshubham/django-todo:latest
+        image: sudosathish835/todo_app:latest
 
         ports:
 
